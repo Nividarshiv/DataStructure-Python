@@ -105,26 +105,15 @@ class Doublelinkedlist:
             itr=itr.next
         print(dlstr)    
 
-print()
 dll=Doublelinkedlist()
 dll.insert_list([13,15,17])
 dll.insert_at_begining(75)
-dll.printdoubleLinklist()
 dll.insert_at_end(555)
-dll.printdoubleLinklist()
 dll.insert_at_index(3,1000)
-dll.printdoubleLinklist()
-dll.insert_after_values(13,15000000000)
-dll.printdoubleLinklist()
+dll.insert_after_values(13,"Python")
 dll.insert_at_index(7,333333)
-dll.printdoubleLinklist()
 dll.remove_values(333333)
-dll.printdoubleLinklist()
 dll.remove_at_index(6)
 dll.printdoubleLinklist()
-dll.remove_at_index(1)
-dll.printdoubleLinklist()
 print(dll.length_doublelist())
-
-
 
