@@ -105,20 +105,6 @@ class Doublelinkedlist:
             itr=itr.next
         print(dlstr)    
 
-d=Doublelinkedlist()
-d.insert_at_begining(7)
-d.insert_at_begining(15)
-d.insert_at_begining(25)
-d.insert_at_end(75)
-d.insert_at_end(275)
-d.insert_at_index(125,1)
-d.insert_list(["win","january"])
-#d.remove_at_index(3)
-#d.remove_values(7)
-d.insert_after_values("january",7000)
-d.length_doublelist()
-
-
 print()
 dll=Doublelinkedlist()
 dll.insert_list([13,15,17])
